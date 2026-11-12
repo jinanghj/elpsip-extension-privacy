@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELPSIP 출원서 작성 개인정보처리방침</title>
+<style>
+:root{--bg:#f6f8f4;--card:#fff;--text:#23382d;--muted:#5b6b60;--line:#dce5dc;--accent:#286943}
+@media (prefers-color-scheme:dark){:root{--bg:#141a16;--card:#1c241f;--text:#e3ebe5;--muted:#a6b5aa;--line:#2f3b33;--accent:#7cc39a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 system-ui,"Malgun Gothic","Apple SD Gothic Neo",sans-serif;word-break:keep-all;overflow-wrap:anywhere}
+main{max-width:760px;margin:0 auto;padding:48px 16px 72px}
+header{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:28px}
+.brand{color:var(--accent);font-weight:700;letter-spacing:1px;font-size:14px}
+h1{font-size:28px;line-height:1.35;margin:6px 0 8px}
+h2{font-size:19px;margin:36px 0 10px;color:var(--accent)}
+p,li{color:var(--text)}
+.meta{color:var(--muted);font-size:14px;margin:0}
+ul{padding-left:22px}
+li{margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--card);width:30%}
+.lang{margin-top:64px;padding-top:28px;border-top:2px solid var(--line)}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div class="brand">ELPSIP</div>
+  <h1>ELPSIP 출원서 작성 — 개인정보처리방침</h1>
+  <p class="meta">시행일 2026년 11월 12일 · <a href="#en">English</a></p>
+</header>
+
+<p>이 방침은 Chrome 확장프로그램 <strong>ELPSIP 출원서 작성</strong>(이하 “확장”)이 사용자의 정보를 어떻게 다루는지 설명합니다. 확장은 ELPSIP 사내 사건관리 시스템(<code>db.elpsip.com</code>)에 로그인한 직원이 상표출원서 초안을 만들 때 쓰는 사내 업무 도구입니다.</p>
+
+<h2>1. 다루는 정보</h2>
+<p>사용자가 사건 상세 화면에서 확장 아이콘을 누를 때, 그 화면과 연결된 출원인 상세 화면에서 아래 항목만 읽습니다.</p>
+<table>
+  <tr><th>사건정보</th><td>관리번호, 상표명, 상표유형, 상품류·지정상품, 등록대상 입력방법</td></tr>
+  <tr><th>출원인 정보</th><td>출원인 이름, 특허고객번호, 포괄위임등록번호</td></tr>
+  <tr><th>상표견본</th><td>사건 화면에 첨부된 상표견본 이미지</td></tr>
+  <tr><th>사용자 입력</th><td>팝업에서 사용자가 수정한 상품류·지정상품</td></tr>
+</table>
+<p>방문 기록, 다른 웹사이트의 내용, 쿠키·비밀번호 등 인증 정보, 위치 정보는 읽거나 저장하지 않습니다.</p>
+
+<h2>2. 이용 목적</h2>
+<p>위 정보는 <strong>상표출원서 초안 파일(PDF·BIB)과 상표견본 JPG를 만드는 데에만</strong> 사용합니다. 다른 목적으로 이용하지 않습니다.</p>
+
+<h2>3. 처리 방법</h2>
+<ul>
+  <li>정보는 사용자의 PC 안에서만 처리합니다. 개발자나 제3자의 서버로 보내지 않습니다.</li>
+  <li>출원인 상세 화면과 견본 이미지는 같은 사이트(<code>db.elpsip.com</code>)에서 사용자의 현재 로그인 상태로 읽습니다.</li>
+  <li>만든 파일은 사용자가 직접 고른 PC 폴더에만 저장합니다. 이를 위해 사용자 PC에 설치한 저장 도우미 프로그램과 Chrome Native Messaging으로 통신하며, 이 도우미도 외부와 통신하지 않습니다.</li>
+  <li>인공지능(LLM)·분석·광고 서비스를 사용하지 않습니다.</li>
+</ul>
+
+<h2>4. 보관 기간</h2>
+<p>확장은 읽은 정보를 브라우저 저장소에 보관하지 않으며, 팝업 창을 닫으면 메모리에서 사라집니다. 사용자가 저장한 PDF·BIB·JPG 파일은 사용자 PC에 남으며 사용자가 직접 관리·삭제합니다.</p>
+
+<h2>5. 제3자 제공 및 판매</h2>
+<p>정보를 제3자에게 제공하거나 판매하지 않습니다. 확장의 목적과 관계없는 용도, 신용도 판단, 대출 심사에 사용하지 않습니다.</p>
+
+<h2>6. Chrome 웹스토어 사용자 데이터 정책 준수</h2>
+<p>이 확장이 받은 정보의 사용은 제한적 사용(Limited Use) 요건을 포함한 <a href="https://developer.chrome.com/docs/webstore/program-policies/policies">Chrome 웹스토어 사용자 데이터 정책</a>을 준수합니다.</p>
+
+<h2>7. 방침 변경</h2>
+<p>방침을 바꾸면 이 페이지에 새 시행일과 함께 게시합니다.</p>
+
+<h2>8. 문의</h2>
+<p>운영자: 강진황 (ELPSIP)<br>이메일: <a href="mailto:jinang@elpsip.com">jinang@elpsip.com</a></p>
+
+<section class="lang" id="en" lang="en">
+<h1>ELPSIP 출원서 작성 — Privacy Policy</h1>
+<p class="meta">Effective November 12, 2026</p>
+
+<p>This policy explains how the Chrome extension <strong>ELPSIP 출원서 작성</strong> (“the extension”) handles user data. The extension is an internal tool for ELPSIP staff who are signed in to the company’s case management system (<code>db.elpsip.com</code>) and need to prepare Korean trademark application drafts.</p>
+
+<h2>1. Data the extension handles</h2>
+<p>Only when the user clicks the extension icon on a case detail page, the extension reads the following from that page and from the linked applicant detail page:</p>
+<table>
+  <tr><th>Case information</th><td>Docket number, mark name, mark type, class and designated goods, representation type</td></tr>
+  <tr><th>Applicant information</th><td>Applicant name, KIPO customer number, general power of attorney number</td></tr>
+  <tr><th>Mark specimen</th><td>The trademark specimen image attached to the case page</td></tr>
+  <tr><th>User input</th><td>Class and goods edited by the user in the popup</td></tr>
+</table>
+<p>The extension does not read or store browsing history, content of other websites, cookies, passwords or other authentication data, or location.</p>
+
+<h2>2. Purpose</h2>
+<p>The data is used <strong>only to generate the draft application files (PDF and BIB) and the specimen JPG</strong>. It is not used for any other purpose.</p>
+
+<h2>3. How data is processed</h2>
+<ul>
+  <li>All processing happens on the user’s computer. No data is sent to the developer or to any third-party server.</li>
+  <li>The applicant detail page and specimen image are fetched from the same site (<code>db.elpsip.com</code>) using the user’s existing session.</li>
+  <li>Generated files are saved only to a folder the user chooses. To do this the extension talks, via Chrome Native Messaging, to a small saving helper installed on the user’s PC. The helper does not communicate with any network service.</li>
+  <li>No AI/LLM, analytics or advertising services are used.</li>
+</ul>
+
+<h2>4. Retention</h2>
+<p>The extension does not keep the data in browser storage; it is discarded from memory when the popup window closes. Files the user saves remain on the user’s computer under the user’s control.</p>
+
+<h2>5. Sharing and sale</h2>
+<p>Data is not sold or transferred to third parties, is not used for purposes unrelated to the extension’s single purpose, and is not used to determine creditworthiness or for lending purposes.</p>
+
+<h2>6. Chrome Web Store User Data Policy</h2>
+<p>The use of information received by this extension adheres to the <a href="https://developer.chrome.com/docs/webstore/program-policies/policies">Chrome Web Store User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>7. Changes</h2>
+<p>Any changes will be posted on this page with a new effective date.</p>
+
+<h2>8. Contact</h2>
+<p>Operator: 강진황 (ELPSIP)<br>Email: <a href="mailto:jinang@elpsip.com">jinang@elpsip.com</a></p>
+</section>
+</main>
+</body>
+</html>
